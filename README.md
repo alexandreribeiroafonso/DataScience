@@ -19,10 +19,10 @@ No K-Means é utilizada a pesagem TF.IDF para pesar os termos, e as stopwords do
 
 Ainda no módulo '/Desafio/desafio.py', após o agrupamento, o módulo imprime na console os grupos e os termos-substantivos mais frequentes em cada grupo, de forma ordenada, caracterizando os principais assuntos tratados em cada grupo.
 
-Em seguida, o módulo em execução imprime na console os termos-substantivos mais frequentes em grupos (dessa vez os que mais estão em grupos). Logicamente, se esses termos estão presentes em vários grupos eles são muito citados pelos usuário, porém alguns não têm peso semântico, como, por exemplo: 'everything', não tem alto valor informativo sozinho, ao contrário de 'room' que indica que 'o quarto de dormir' é um termo muito comentado.
+Em seguida, o módulo em execução imprime na console os termos-substantivos mais frequentes em grupos (dessa vez os que mais estão em grupos). Logicamente, se esses termos estão presentes em vários grupos eles são muito citados pelos usuários, porém alguns não têm peso semântico, como, por exemplo: 'everything', que não tem alto valor informativo sozinho, ao contrário de 'room' que indica por si só que 'o quarto de dormir' é um termo muito comentado.
 
-Finalmente, o modelo é capaz de identificar na planilha original 'reviews.csv' em que contexto os termos que mais aparecem em grupos surgem..., no caso para evitar "poluição da tela", escolhemos só o mais frequente, mais isso poderia ser estendido para os 10 mais frequentes. Assim, é possível visualizar sobre o que se fala sobre o termo-substantivo nos textos originais, ou seja identificamos agora o contexto desses substantivos. Por exmplo, 'city' é um termo frequente, mas o que se fala sobre 'city'? 
+Finalmente, o modelo é capaz de identificar na planilha original 'reviews.csv' em que contexto os termos que mais aparecem em grupos surgem. No caso, para evitar "poluição da tela", escolhemos só o mais frequente, mas isso poderia ser estendido para os 10 mais frequentes. Desta forma, é possível visualizar sobre o que se comenta sobre o termo-substantivo nos textos originais, ou seja, identificamos agora o contexto desses substantivos. Por exmplo, 'city' é um termo frequente, mas o que se fala sobre 'city'? 
 
 Apesar da amostra ser pequena em vista do volume de dados, o sistema proposto pode ser executado com volumes de dados maiores, mas o tempo de processamento deve crescer proporcionalmente. Muito pode ser feito ainda para minerar os dados com mais exatidão.
 
-Os resultados são gerados na console, no meu caso utilizei o Eclipse, mas creio que em qualquer IDE deve funcionar.
+Os resultados são gerados na console, utilizei o Eclipse, mas creio que em qualquer IDE deve funcionar.
